@@ -1,3 +1,6 @@
 #! /bin/bash
 
-echo Hello World!
+git add .
+
+read -p "Enter your commit message: " MESSAGE
+git commit -m "added $MESSAGE"
